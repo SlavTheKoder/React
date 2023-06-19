@@ -7,7 +7,7 @@ export const App = () => {
         genre={filmDetails.genre}
         seasonsCount={filmDetails.seasonsCount}
       />
-      <Reviews />
+      <Reviews reviews={filmDetails.reviews} />
       <Recommendations />
       <footer />
     </div>
